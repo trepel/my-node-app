@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Messaging Work Queue</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,600,600italic|Ubuntu+Mono:400" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="/app.css" type="text/css"/>
+    <link rel="icon" href="" type="image/png"/>
+    <script type="text/javascript" src="/gesso.js"></script>
+    <script type="text/javascript" src="/app.js"></script>
+    <script>
+      "use strict";
+      const app = new Application();
+    </script>
+  </head>
+  <body>
+    <div id="-body">
+      <div id="-body-content">
+        <h1>Messaging Work Queue</h1>
+
+        <h2>Add Fruit</h2>
+
+        <form id="requests" method="post" action="javascript:void(0);">
+          <label for="text">Fruit:</label><input id="request-text" type="text" name="text" autofocus="autofocus"/>
+          <label for="stock">Stock:</label><input id="request-stock" type="text" name="stock" autofocus="autofocus"/>
+
+          <button>Send request</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
